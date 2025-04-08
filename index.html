@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccidentWatch - Report, View, and Learn from Car Accidents Nationwide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>AccidentWatch</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="report.html">Report Accident</a></li>
+                        <li><a href="map.html">Accident Map</a></li>
+                        <li><a href="contest.html">Monthly Contest</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="login.html" class="btn btn-outline">Login</a></li>
+                        <li><a href="register.html" class="btn btn-primary">Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>AccidentWatch</h1>
+                    <h2>Report, View, and Learn from Car Accidents Nationwide</h2>
+                    <p>Join our community of responsible citizens helping to document and raise awareness about road safety through accident reporting.</p>
+                    <div class="hero-buttons">
+                        <a href="report.html" class="btn btn-secondary btn-large">Report an Accident</a>
+                        <a href="map.html" class="btn btn-outline-light btn-large">View Accident Map</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Car accident scene">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <p class="section-subtitle">Our platform offers a comprehensive set of tools for accident reporting and awareness</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: #1976d2;">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/report/v12/24px.svg" alt="Report icon">
+                    </div>
+                    <h3>Easy Reporting</h3>
+                    <p>Submit accident reports with our simple step-by-step form. Upload photos and provide details to create comprehensive records.</p>
+                    <a href="report.html" class="feature-link">Report Now</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: #4caf50;">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/map/v12/24px.svg" alt="Map icon">
+                    </div>
+                    <h3>Interactive Map</h3>
+                    <p>Explore accidents on our interactive map. Filter by location, date, severity, and more to understand accident patterns.</p>
+                    <a href="map.html" class="feature-link">View Map</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: #ff9800;">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/emoji_events/v12/24px.svg" alt="Contest icon">
+                    </div>
+                    <h3>Monthly Contests</h3>
+                    <p>Participate in our monthly photo contests. Submit your best accident photos and win prizes based on community votes.</p>
+                    <a href="contest.html" class="feature-link">Join Contest</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: #9c27b0;">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/gavel/v12/24px.svg" alt="Legal icon">
+                    </div>
+                    <h3>Legal Resources</h3>
+                    <p>Access legal resources and connect with attorneys specializing in traffic accidents and personal injury cases.</p>
+                    <a href="resources.html" class="feature-link">View Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Accidents -->
+    <section class="recent-accidents">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recent Accidents</h2>
+                <a href="map.html" class="btn btn-outline">View All</a>
+            </div>
+            
+            <div class="accident-grid">
+                <div class="accident-card">
+                    <div class="accident-image">
+                        <img src="https://images.unsplash.com/photo-1566024146785-a9362d3b4c0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Multi-Vehicle Collision">
+                        <span class="severity-badge severe">Severe</span>
+                    </div>
+                    <div class="accident-content">
+                        <h3>Multi-Vehicle Collision on Highway 101</h3>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/location_on/v12/24px.svg" alt="Location icon">
+                            <span>San Francisco, CA</span>
+                        </div>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/calendar_today/v12/24px.svg" alt="Date icon">
+                            <span>April 8, 2025</span>
+                        </div>
+                        <div class="accident-footer">
+                            <span>By: John D.</span>
+                            <div class="votes">
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/thumb_up/v12/24px.svg" alt="Votes icon">
+                                <span>87 votes</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline btn-full">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="accident-card">
+                    <div class="accident-image">
+                        <img src="https://images.unsplash.com/photo-1592805144716-feeccccef5ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Truck Rollover">
+                        <span class="severity-badge fatal">Fatal</span>
+                    </div>
+                    <div class="accident-content">
+                        <h3>Truck Rollover on Interstate 95</h3>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/location_on/v12/24px.svg" alt="Location icon">
+                            <span>Miami, FL</span>
+                        </div>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/calendar_today/v12/24px.svg" alt="Date icon">
+                            <span>April 8, 2025</span>
+                        </div>
+                        <div class="accident-footer">
+                            <span>By: Michael T.</span>
+                            <div class="votes">
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/thumb_up/v12/24px.svg" alt="Votes icon">
+                                <span>124 votes</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline btn-full">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="accident-card">
+                    <div class="accident-image">
+                        <img src="https://images.unsplash.com/photo-1583262798522-53e5e5e2b31d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Motorcycle Accident">
+                        <span class="severity-badge severe">Severe</span>
+                    </div>
+                    <div class="accident-content">
+                        <h3>Motorcycle Accident on Mountain Road</h3>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/location_on/v12/24px.svg" alt="Location icon">
+                            <span>Denver, CO</span>
+                        </div>
+                        <div class="accident-detail">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/calendar_today/v12/24px.svg" alt="Date icon">
+                            <span>April 8, 2025</span>
+                        </div>
+                        <div class="accident-footer">
+                            <span>By: David K.</span>
+                            <div class="votes">
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/thumb_up/v12/24px.svg" alt="Votes icon">
+                                <span>103 votes</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline btn-full">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="statistics">
+        <div class="container">
+            <h2 class="section-title">Accident Statistics</h2>
+            <p class="section-subtitle">Data collected from user submissions across the nation</p>
+            
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <h3>Platform Overview</h3>
+                    <div class="stats-numbers">
+                        <div class="stat-item">
+                            <span class="stat-value">1,547</span>
+                            <span class="stat-label">Accidents</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">1,832</span>
+                            <span class="stat-label">Submissions</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">843</span>
+                            <span class="stat-label">Users</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">12,458</span>
+                            <span class="stat-label">Votes</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-divider"></div>
+                    
+                    <h3>Accidents by Type</h3>
+                    <div class="stats-types">
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Rear-end: 423</span>
+                        </div>
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Side-impact: 312</span>
+                        </div>
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Sideswipe: 287</span>
+                        </div>
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Rollover: 156</span>
+                        </div>
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Head-on: 134</span>
+                        </div>
+                        <div class="type-item">
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/directions_car/v12/24px.svg" alt="Car icon">
+                            <span>Other: 235</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card">
+                    <h3>Accidents by Severity</h3>
+                    <div class="severity-bars">
+                        <div class="severity-item">
+                            <div class="severity-label">
+                                <span>Minor</span>
+                                <span>687 (44%)</span>
+                            </div>
+                            <div class="severity-bar">
+                                <div class="severity-progress" style="width: 44%; background-color: #a3e635;"></div>
+                            </div>
+                        </div>
+                        <div class="severity-item">
+                            <div class="severity-label">
+                                <span>Moderate</span>
+                                <span>512 (33%)</span>
+                            </div>
+                            <div class="severity-bar">
+                                <div class="severity-progress" style="width: 33%; background-color: #fbbf24;"></div>
+                            </div>
+                        </div>
+                        <div class="severity-item">
+                            <div class="severity-label">
+                                <span>Severe</span>
+                                <span>243 (16%)</span>
+                            </div>
+                            <div class="severity-bar">
+                                <div class="severity-progress" style="width: 16%; background-color: #f97316;"></div>
+                            </div>
+                        </div>
+                        <div class="severity-item">
+                            <div class="severity-label">
+                                <span>Fatal</span>
+                                <span>105 (7%)</span>
+                            </div>
+                            <div class="severity-bar">
+                                <div class="severity-progress" style="width: 7%; background-color: #dc2626;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-divider"></div>
+                    
+                    <h3>Safety Tips</h3>
+                    <ul class="safety-tips">
+                        <li>
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/warning/v12/24px.svg" alt="Warning icon">
+                            <div>
+                                <strong>Avoid Distracted Driving</strong>
+                                <p>Never text and drive. Keep your attention on the road at all times.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/security/v12/24px.svg" alt="Security icon">
+                            <div>
+                                <strong>Always Wear Seatbelts</strong>
+                                <p>Seatbelts reduce the risk of fatal injury by 45% for front-seat occupants.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://fonts.gstatic.com/s/i/materialicons/local_hospital/v12/24px.svg" alt="Hospital icon">
+                            <div>
+                                <strong>Keep Emergency Kit</strong>
+                                <p>Have a first aid kit, flashlight, and emergency contact information in your vehicle.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Join Our Community Today</h2>
+                    <p>Help make roads safer by contributing to our accident reporting platform. Register now to submit reports, participate in contests, and connect with others.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="register.html" class="btn btn-secondary btn-large">Register Now</a>
+                    <a href="about.html" class="btn btn-outline-light btn-large">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertising Section -->
+    <section class="advertising">
+        <div class="container">
+            <h2 class="section-title">For Legal Professionals</h2>
+            <p class="section-subtitle">Connect with potential clients through our targeted advertising platform</p>
+            
+            <div class="ad-card">
+                <div class="ad-content">
+                    <div class="ad-text">
+                        <h3>Advertise Your Legal Services</h3>
+                        <p>Our platform connects accident victims with legal professionals who can help them navigate the aftermath of an accident. Reach potential clients when they need your services most.</p>
+                        <ul class="ad-features">
+                            <li>
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/check_circle/v12/24px.svg" alt="Check icon">
+                                <div>
+                                    <strong>Targeted Advertising</strong>
+                                    <p>Reach users based on accident location, severity, and other relevant factors.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/check_circle/v12/24px.svg" alt="Check icon">
+                                <div>
+                                    <strong>Featured Listings</strong>
+                                    <p>Get prominent placement in our attorney directory and on accident detail pages.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="https://fonts.gstatic.com/s/i/materialicons/check_circle/v12/24px.svg" alt="Check icon">
+                                <div>
+                                    <strong>Content Marketing</strong>
+                                    <p>Share your expertise through sponsored articles and resources.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="advertise.html" class="btn btn-primary btn-large">Learn About Advertising</a>
+                    </div>
+                    <div class="ad-image">
+                        <img src="https://images.unsplash.com/photo-1589578228447-e1a4e481c6c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" alt="Legal professional">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>AccidentWatch</h2>
+                    <p>Report, View, and Learn from Car Accidents Nationwide</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="report.html">Report Accident</a></li>
+                            <li><a href="map.html">Accident Map</a></li>
+                            <li><a href="contest.html">Monthly Contest</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Safety Tips</a></li>
+                            <li><a href="#">Legal Resources</a></li>
+                            <li><a href="#">Insurance Information</a></li>
+                            <li><a href="#">Emergency Contacts</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="cookies.html">Cookie Policy</a></li>
+                            <li><a href="disclaimer.html">Disclaimer</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AccidentWatch. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/facebook/v12/24px.svg" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/twitter/v12/24px.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/instagram/v12/24px.svg" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="https://fonts.gstatic.com/s/i/materialicons/youtube_searched_for/v12/24px.svg" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
