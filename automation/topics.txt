@@ -1,0 +1,11 @@
+# A starter set of high-intent SEO topics for AccidentWatch.
+# One topic per line. Lines starting with # are ignored.
+# Run:  python automation/generate_resources.py --from-file automation/topics.txt
+What to do immediately after a car accident: a step-by-step checklist
+How to document a car accident scene with photos and notes
+Do you need a lawyer after a car accident? When it makes sense
+Understanding fault and liability in car accidents
+How car insurance claims work after an accident
+What to do if the other driver is uninsured
+Common car accident injuries and why timely documentation matters
+How to file a police report after a car accident
